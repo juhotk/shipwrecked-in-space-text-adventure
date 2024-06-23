@@ -1,0 +1,86 @@
+
+
+       _____ __    _                              __            __   _
+      / ___// /_  (_)___ _      __________  _____/ /_____  ____/ /  (_)___
+      \__ \/ __ \/ / __ \ | /| / / ___/ _ \/ ___/ //_/ _ \/ __  /  / / __ \
+     ___/ / / / / / /_/ / |/ |/ / /  /  __/ /__/ ,< /  __/ /_/ /  / / / / /
+    /____/_/ /_/_/ .___/|__/|__/_/   \___/\___/_/|_|\___/\__,_/  /_/_/ /_/
+       ____     /_/__               _____
+      / __ \__  __/ /____  _____   / ___/____  ____ _________
+     / / / / / / / __/ _ \/ ___/   \__ \/ __ \/ __ `/ ___/ _ \
+    / /_/ / /_/ / /_/  __/ /      ___/ / /_/ / /_/ / /__/  __/
+    \____/\__,_/\__/\___/_/      /____/ .___/\__,_/\___/\___/
+                                     /_/
+
+
+
+================================================================================
+=================================Walkthrough====================================
+================================================================================
+
+
+                              +------------------+
+                              |  Intro Sequence  |
+                              +------------------+
+
+The introduction sequence tells you the story so far. To progress, simply type
+NEXT whenever prompted. At one point you will have to make a choice between
+welding, pouring and spraying. All of the choices work and lead to the same outcome.
+
+
+                            +----------------------+
+                            |  Escape Pod & Hatch  |
+                            +----------------------+
+
+Interact (or int to reduce typing) with the radio to understand the objective of
+the game. Afterwards, interact with the box and pick up the memo that falls out.
+Go to Hatch and examine the memo. Memorize the code it tells you and interact with
+the keypad. Enter the code from the memo when prompted. The hatch is now unlocked.
+Go to outer space.
+
+
+                               +---------------+
+                               |  Outer Space  |
+                               +---------------+
+
+Pick a direction you want to jump off to. The game will randomize your starting position
+and your selection will affect it slightly. Your goal is to center yourself onto your target.
+Each left or right movement will adjust your position by either -1 or 1, while the big
+movements will adjust it by -2 or 2. You have a total of 5 moves to make and your final
+move should put you to 0. You cannot go straight so you have to account that into your
+movements.
+
+Example solution with the position in brackets:
+Starting jump: Go left
+Oxygen remaining 4: You are a bit too far off to left. [-1]
+    -> Go right
+Oxygen remaining 3: You're right on target but there's still distance to go. [0]
+    -> Go big left
+Oxygen remaining 2: You are too far to the left of your target. [-2]
+    -> Go right
+Oxygen remaining 1: You are a bit too far off to left. [-1]
+    -> Go right
+
+    At this point your position will be 0 and your oxygen reaches 0, too.
+    You will land at Engineering Ship Lobby.
+
+
+                            +--------------------+
+                            |  Engineering Ship  |
+                            +--------------------+
+
+In the lobby you have to interact with the terminal to print out a set of instructions
+on how to fix the radio. Pick it up afterwards and give it a read if you want to.
+Then interact with the cabinet and get the hammer from it. Move to the helm and pick up
+the duct tape. Use combine command on either the hammer or the duct tape to make a toolkit.
+Return to lobby and exit to outer space. This time you won't have to navigate the space.
+Go to hatch from outer space.
+
+
+                        +--------------------------------+
+                        |  Return to Escape Pod & Hatch  |
+                        +--------------------------------+
+
+There's nothing interesting in the hatch so move onto the pod itself. Once you are
+at the escape pod, use the toolkit. This will fix the radio. Interact with it and
+type YES to call for rescue. Congratulations! You have won the game.
